@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden !important;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredimg {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-top {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-bottom {
+    position: absolute;
+    top: 45%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+.navbuttons {
+  background-color: none;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px black, 0 0 25px #23eccc, 0 0 5px #00ffd5;
+  border: none;
+}
+.navbuttons:hover {
+    background-color: #23eccc;
+  }
+
+  .enqbtn{
+    background-color: #0b2a3c;
+    color: white;
+    border: none;
+  }
+
+  ul {
+    list-style-type: none;
+    overflow-x: scroll;
+    margin-bottom: 40px;
+}
+li{
+  width: 200px;
+  color: white;
+}
+
+.listing{
+  background-color: #0b2a3c;
+  margin: 0 10px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.cards {
+  height: 200px;
+  position: relative;
+}
+
+.cards h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.suitables::-webkit-scrollbar {
+  display: none !important;
+}
+
+
+  @media (max-width: 992px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    .responsive{
+        margin-left: 0 !important; 
+        margin-right: 0 !important;
+
+    }
+    .titlenav{
+      height: 30vh !important;
+    }
+    .titleimg{
+      height: 100%;
+      margin: 0 auto !important;
+    }
+    .titleno{
+      margin: 0 auto 20px !important;
+    }
+    .infoimg{
+      height: 400px !important;
+    }
+    .infobg{
+      height: 380px !important;
+    }
+    .maptext{
+      font-size: 18px;
+    }
+  }
